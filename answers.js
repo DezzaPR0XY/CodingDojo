@@ -72,7 +72,10 @@ console.log(sum);
 //You Say It's Your Birthday
 var bday = [4,21];
 function checkBday(a,b){
-    if(bday.includes(a) && bday.includes(b)) console.log("How did you know?");
+    if(bday[0] != bday[1])
+        if(bday.includes(a) && bday.includes(b)) console.log("How did you know?");
+    if(bday[0] == bday[1]) {
+        if(a == b && bday.includes(a)) console.log("How did you know?");
     else console.log("Just another day....");
 }
 
