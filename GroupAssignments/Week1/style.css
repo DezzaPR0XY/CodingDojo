@@ -10,13 +10,13 @@
     border-radius: 20px;
 }
 #header{
-    min-height: 150px;
+    min-height: 75px;
     background-color: rgb(215, 38, 56);
     border-radius: 20px;
     margin-bottom: 20px
 }
 #directory{
-    min-height: 300px;
+    min-height: 225px;
     width: 200px;
     background-color: rgb(8, 126, 139);
     border-radius: 20px;
@@ -24,17 +24,18 @@
     vertical-align: top;
 }
 #mainsection{
-    min-height: 400px;
-    width: 700px;
+    min-height: 450px;
+    width: 720px;
     background-color: rgb(12,24,33);
     border-radius: 20px;
-    margin-left: 40px; 
+    margin-left: 25px; 
     display: inline-block;
     vertical-align: top;
 }
 #footer{
-    min-height: 60px;
+    min-height: 40px;
     width: 950px;
     background-color: rgb(92,102,114);
+    margin-top: 15px;
     border-radius: 20px;
 }
