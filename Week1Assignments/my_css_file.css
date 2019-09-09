@@ -1,0 +1,40 @@
+.body {
+  background-color: lightblue;
+}
+table.table td{
+  border: 1px solid;
+  border-color: black;
+}
+table.table th{
+  border: 1px solid;
+  border-color: black;
+  text-align: left;
+}
+table.table{
+  border: solid;
+  border-color: black;
+  border-collapse: collapse;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.survey{
+  font-family: 'Courier New', Courier, monospace,;
+  font-weight: bold;
+  font-size: 20px;
+}
+.about_me{
+  width: 900px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.profile_name{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 11px;
+  max-width: 250px;
+
+}
+
+.profile_picture{
+  max-width:250px;
+  max-height:250px;
+  width: auto;
+  height: auto;
+}
